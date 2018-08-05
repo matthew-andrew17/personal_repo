@@ -1,0 +1,40 @@
+import numpy as np
+import tkinter as tk
+
+x=0
+y=0
+z=0
+picx=0
+picy=0
+picz=0
+list_kill=True
+image=0
+pallete=0
+viewportdims=[0,0]
+fn=0
+im_full_bbox=[0,0,25000,25000]
+canvas_bbox=[0,0,25000,25000]
+palette_shape=[0,0]
+hf=0 #this is the project file
+im_positions=0
+im_cent_positions=0
+c_im_xind=0
+c_im_yind=0
+imagelist=[]
+imageIDs=[]
+imageIDs2=np.zeros(100)
+zoomlevel=2
+im_c_list=[]
+im_current_list=[]
+im_current_list_new=[]
+currentposition=[0,0]
+pixelsize=0.005
+temp_folder='C:\\Users\\y7mandre\\Pictures\\scanner_imagedump'
+current_imagename='x_0001.jpg'
+todo_dict={}
+scanpositions=[]
+scanbound=np.zeros((2,2))
+fov=np.zeros(2)
+scanjob=0
+correct_images=False
+image_corrector=np.zeros((2,2))
